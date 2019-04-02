@@ -5,7 +5,6 @@ soc=socket.socket()
 soc.connect((host,port))	//Connecting the server
 soc.send('connected')		//sending connection response to the server
 print ('status : Connected to the server')
-
 mes=raw_input("enter -->")	//Taking input from the terminal
 
 while True:
